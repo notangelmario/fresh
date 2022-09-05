@@ -9,7 +9,6 @@ export type StartOptions = ServeInit & FreshOptions;
 export interface FreshOptions {
   render?: RenderFunction;
   plugins?: Plugin[];
-  staticDir?: string;
 }
 
 export type RenderFunction = (
